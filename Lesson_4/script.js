@@ -206,7 +206,8 @@
 // }
 // console.log(c);
 
-function foo(){
-    var c = 10;
-};
-console.log(c);
+// function foo(){
+//     var c = 10;
+// };
+// console.log(c);
+

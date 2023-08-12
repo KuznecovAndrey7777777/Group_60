@@ -74,13 +74,13 @@
 
 
 // Паралельні
-async function foo() {
-    const arr = [1, 2, 3, 4];
-    const resps = await arr.map(async hero => await fetch(`https://swapi.dev/api/people/${hero}/`))
-    console.log(resps);
+// async function foo() {
+//     const arr = [1, 2, 3, 4];
+//     const resps = await arr.map(async hero => await fetch(`https://swapi.dev/api/people/${hero}/`))
+//     console.log(resps);
 
 
 
-    // return data;
-}
-foo()
+//     // return data;
+// }
+// foo()

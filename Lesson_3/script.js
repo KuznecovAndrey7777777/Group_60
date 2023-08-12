@@ -16,7 +16,7 @@
 
 
 // const arr = [7, 3, 8, 3, 9, 3, 2];
-// const idx = arr.indexOf(3) 
+// const idx = arr.indexOf(3)
 // // indexOf повертає індекс елемента якщо він присутній в масиві, якщо елемент не присутній в масиві indexOf повертає  -1
 
 // const nextIdx = arr.indexOf(3, idx + 1)
@@ -217,11 +217,11 @@
 // console.log(min);
 
 // let min = numbers[0];
-let a;
-console.log(a);
-console.log(object);
-const prop = prompt()
-console.log(prop);
+// let a;
+// console.log(a);
+// console.log(object);
+// const prop = prompt()
+// console.log(prop);
 // if(true){
 //     if(true){
 
@@ -240,3 +240,16 @@ console.log(prop);
 // }
 // foo(numbers)
 // console.log(numbers);
+
+//
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+//     // Change code below this line
+
+//     const message = `You ordered droids worth ${orderedQuantity * pricePerDroid + deliveryFee} credits. Delivery (${deliveryFee} credits) is included in total price.`
+
+//     // Change code above this line
+//     return message;
+
+// }
+
+// console.log(message);

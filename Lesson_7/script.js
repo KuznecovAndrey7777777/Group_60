@@ -341,7 +341,7 @@
 //     nameList.forEach((el, idx)=>{
 //         console.log(`${el} - ${phoneList[idx]}`);
 //     })
-//   } 
+//   }
 
 //   printContactsInfo({
 //     names: 'Jacob,William,Solomon,Artem',
@@ -465,9 +465,9 @@
 // atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion")
 
 
-const numbers = [1, 2, 3, 4, 5];
-const filteredNumbers = numbers.filter(value => value > 5);
-console.log(filteredNumbers); // [4, 5]
+// const numbers = [1, 2, 3, 4, 5];
+// const filteredNumbers = numbers.filter(value => value > 5);
+// console.log(filteredNumbers); // [4, 5]
 
 
 
@@ -476,23 +476,38 @@ console.log(filteredNumbers); // [4, 5]
 
 
 
-const decrButton = document.querySelector(`[data-action='decrement']`);
-const incrButton = document.querySelector(`[data-action='increment']`);
-const value = document.querySelector("#value");
-let counterValue = 0;
+// const decrButton = document.querySelector(`[data-action='decrement']`);
+// const incrButton = document.querySelector(`[data-action='increment']`);
+// const value = document.querySelector("#value");
+// let counterValue = 0;
 
 
 
-decrButton.addEventListener("click", onClickDecrement);
+// decrButton.addEventListener("click", onClickDecrement);
 
-function onClickDecrement() {
-    counterValue -= 1
-    value.textContent = counterValue;
-}
+// function onClickDecrement() {
+//     counterValue -= 1
+//     value.textContent = counterValue;
+// }
 
-incrButton.addEventListener("click", onClickIncrement);
+// incrButton.addEventListener("click", onClickIncrement);
 
-function onClickIncrement() {
-    counterValue += 1
-    value.textContent = counterValue;
-}
+// function onClickIncrement() {
+//     counterValue += 1
+//     value.textContent = counterValue;
+// }
+
+
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
+
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}.`);
+// });
+// // Change code below this line
+
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+//   console.log(`Eating pizza ${pizzaName}.`);
+// });
