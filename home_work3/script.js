@@ -38,7 +38,8 @@
 
 // #2
 
-// Доповни об'єкт квартири властивістю owner, значенням якого буде об'єкт з інформацією про власника.Додай йому наступні властивості:
+// Доповни об'єкт квартири властивістю owner, значенням якого буде об'єкт з інформацією про власника.
+// Додай йому наступні властивості:
 
 // name - ім'я власника, значення "Henry";
 // phone - телефон, значення "982-126-1588";
@@ -110,6 +111,7 @@
 // numberOfTags - кількість елементів масиву у властивості tags;
 // firstTag - перший елемент масиву у властивості tags;
 // lastTag - останній елемент масиву у властивості tags.
+
 // Оголошена змінна apartment за допомогою const
 //     Значення змінної apartment - це об'єкт
 // Оголошена змінна ownerName за допомогою const
@@ -154,7 +156,8 @@
 
 // #5
 
-// Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment, використовуючи синтаксис «квадратних дужок».
+// Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment,
+// використовуючи синтаксис «квадратних дужок».
 
 // aptRating - рейтинг;
 // aptDescr - опис;
@@ -197,6 +200,7 @@
 // рейтинг квартири у властивості rating на 4.7;
 // ім'я власника у вкладеній властивості name на "Henry Sibola";
 // масив тегів у властивості tags, додавши в кінець рядок "trusted".
+
 // Оголошена змінна apartment
 // Значення змінної apartment - це об'єкт
 // Значення вкладеної властивості price - це число 5000
@@ -233,6 +237,7 @@
 // location - місце розташування квартири, об'єкт з наступними вкладеними властивостями;
 // country - країна, рядок "Jamaica";
 // city - місто, рядок "Kingston".
+
 // Оголошена змінна apartment
 // Значення змінної apartment - це об'єкт
 // Значення вкладеної властивості area - це число 60
@@ -262,7 +267,8 @@
 
 // #8
 
-// Доповни код оголошення об'єкта таким чином, щоб у нього були властивості name, price, image і tags зі значеннями зі змінних з аналогічними іменами. Обов'язково використовуй синтаксис коротких властивостей.
+// Доповни код оголошення об'єкта таким чином, щоб у нього були властивості name, price, image і tags зі
+// значеннями зі змінних з аналогічними іменами.Обов'язково використовуй синтаксис коротких властивостей.
 
 // Оголошена змінна product
 // Значення змінної product - це об'єкт
@@ -286,9 +292,11 @@
 
 // #9
 
-// Доповни код оголошення об'єкта credentials таким чином, щоб в результаті у нього були дві властивості: email і password, імена яких зберігаються у змінних emailInputName і passwordInputName.
+// Доповни код оголошення об'єкта credentials таким чином, щоб в результаті у нього були дві
+// властивості: email і password, імена яких зберігаються у змінних emailInputName і passwordInputName.
 
-// Значенням властивості email повинен бути рядок "henry.carter@aptmail.com", а значенням властивості password - рядок "jqueryismyjam".
+// Значенням властивості email повинен бути рядок "henry.carter@aptmail.com", а значенням
+// властивості password - рядок "jqueryismyjam".
 
 // Оголошена змінна credentials
 // Значення змінної credentials - це об'єкт
@@ -382,7 +390,8 @@
 
 // #12
 
-// Напиши функцію countProps(object), яка рахує і повертає кількість власних властивостей об'єкта в параметрі object. Використовуй змінну propCount для зберігання кількості властивостей об'єкта.
+// Напиши функцію countProps(object), яка рахує і повертає кількість власних властивостей об'єкта в параметрі
+// object.Використовуй змінну propCount для зберігання кількості властивостей об'єкта.
 
 // Оголошена функція countProps(object)
 // Виклик countProps({}) повертає 0
@@ -401,18 +410,6 @@
 //     }
 
 //     // Change code above this line
-//     return propCount;
-// }
-
-// function countProps(object) {
-//     let propCount = 0;
-
-//     for (let key in object) {
-//         if (object.hasOwnProperty(key)) {
-//             propCount += 1;
-//         }
-//     }
-
 //     return propCount;
 // }
 
@@ -460,7 +457,8 @@
 
 // #14
 
-// Виконай рефакторинг функції countProps(object), використовуючи метод Object.keys() і, можливо, але не обов'язково, цикл for...of.
+// Виконай рефакторинг функції countProps(object), використовуючи метод Object.keys() і, можливо, але
+// не обов'язково, цикл for...of.
 
 // Оголошена функція countProps(object)
 // Виклик countProps({}) повертає 0
@@ -552,6 +550,16 @@
 
 // #17
 
+// Перебери масив об'єктів colors, використовуючи цикл for...of. Додай у масив hexColors значення
+// властивостей hex, а в масив rgbColors - значення властивостей rgb з усіх об'єктів масиву colors.
+
+// Оголошена змінна colors
+// Значення змінної colors - це масив
+// Оголошена змінна hexColors
+// Значення змінної hexColors - це масив["#f44336", "#2196f3", "#4caf50", "#ffeb3b"]
+// Оголошена змінна rgbColors
+// Значення змінної rgbColors - це масив["244,67,54", "33,150,243", "76,175,80", "255,235,59"]
+
 // const colors = [
 //     { hex: "#f44336", rgb: "244,67,54" },
 //     { hex: "#2196f3", rgb: "33,150,243" },
@@ -620,6 +628,16 @@
 // вказаною назвою, повертає його ціну.Якщо продукт не знайдений, повертається null.
 
 // #19
+
+// Напиши функцію getAllPropValues(propName), яка приймає один параметр propName - ім'я (ключ) властивості.
+//  Функція повинна повернути масив всіх значень властивості з таким ім'ям з кожного об'єкта 
+//  в масиві products.Якщо в об'єктах відсутні властивості з таким ім'ям, функція повинна повернути порожній масив.
+
+// Оголошена функція getAllPropValues(propName)
+// Виклик getAllPropValues("name") повертає["Radar", "Scanner", "Droid", "Grip"]
+// Виклик getAllPropValues("quantity") повертає[4, 3, 7, 9]
+// Виклик getAllPropValues("price") повертає[1300, 2700, 400, 1200]
+// Виклик getAllPropValues("category") повертає[]
 
 // const products = [
 //     { name: "Radar", price: 1300, quantity: 4 },
@@ -1140,7 +1158,461 @@
 // console.log(add(32, 6, 13, 19, 8)); // 78
 // console.log(add(74, 11, 62, 46, 12, 36)); // 241
 
-
-
 // #32
+
+// Функція addOverNum() рахує суму всіх аргументів.Зміни параметри і тіло функції addOverNum() таким
+// чином, щоб вона рахувала суму тільки тих аргументів, які більші за задане число.Це число повинно бути
+// першим параметром функції.
+
+// Оголошена функція addOverNum()
+// Виклик addOverNum(50, 15, 27) повертає 0
+// Виклик addOverNum(10, 12, 4, 11, 48, 10, 8) повертає 71
+// Виклик addOverNum(15, 32, 6, 13, 19, 8) повертає 51
+// Виклик addOverNum(20, 74, 11, 62, 46, 12, 36) повертає 218
+
+// Change code below this line
+
+// function addOverNum(...args) {
+//     let total = 0;
+//     const addNum = args[0];
+//     for (let i = 0; i < args.length; i += 1) {
+//         if (args[i] > addNum)
+//             total += args[i];
+//     }
+
+//     return total;
+
+//     // Change code above this line
+// }
+
+// // Приклади викликів
+// console.log(addOverNum(50, 15, 27)); // 0
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8)); // 71
+// console.log(addOverNum(15, 32, 6, 13, 19, 8)); // 51
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36)); // 218
+
+// function addOverNum(num, ...args) {
+//     return args.reduce((total, current) => (current > num ? total + current : total), 0);
+// }
+
+// // Приклади викликів
+// console.log(addOverNum(50, 15, 27)); // 0
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8)); // 71
+// console.log(addOverNum(15, 32, 6, 13, 19, 8)); // 51
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36)); // 218
+
+// Ця функція приймає перший аргумент num, як число, з яким порівнюються інші аргументи.
+// Використовуючи операцію rest(...args), вона обробляє всі інші аргументи та знаходить
+// їхню суму, враховуючи умову, що аргументи повинні бути більші за num.
+
 // #33
+
+// Функція findMatches() приймає довільну кількість аргументів.Першим аргументом завжди буде
+// масив чисел, а решта аргументів будуть просто числами.
+
+// Доповни код функції таким чином, щоб вона повертала новий масив matches, в якому будуть
+//  тільки ті аргументи, починаючи з другого, які є в масиві першого аргументу.
+
+//     Наприклад, findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7) повинна повернути масив[1, 2], тому
+//      що тільки вони є в масиві першого аргументу.
+
+// Оголошена функція findMatches()
+// Виклик findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7) повертає[1, 2]
+// Виклик findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2) повертає[17, 89, 2]
+// Виклик findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41) повертає[24, 9, 41]
+// Виклик findMatches([63, 11, 8, 29], 4, 7, 16) повертає[]
+
+// // Change code below this line
+// function findMatches(array, ...args) {
+//     const matches = []; // Don't change this line
+
+//     for (const number of array) {
+//         if (args.includes(number)) {
+//             matches.push(number);
+//         }
+//     }
+
+//     // Change code above this line
+//     return matches;
+// }
+
+// // Приклади викликів
+// console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7)); // [1, 2]
+// console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2)); // [17, 89, 2]
+// console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41)); // [24, 9, 41]
+// console.log(findMatches([63, 11, 8, 29], 4, 7, 16)); // []
+
+// #34
+
+// Додай об'єкту bookShelf ще два методи, які поки що будуть повертати просто рядки за
+// аналогією з getBooks() і addBook(bookName).
+
+// Метод removeBook(bookName) буде видаляти книгу за назвою.Повертає рядок "Deleting book <назва книги>", де
+//     < назва книги > - це значення параметра bookName.
+
+// Метод updateBook(oldName, newName) буде оновлювати назву книги на нову.Повертає
+// рядок "Updating book <стара назва> to <нова назва>", де < стара назва > і < нова назва > - це
+// значення параметрів oldName і newName відповідно.
+
+// Оголошена змінна bookShelf
+
+// Значення змінної bookShelf - це об'єкт
+
+// Значення властивості bookShelf.getBooks - це метод об'єкта
+
+// Виклик методу bookShelf.getBooks() повертає рядок "Returning all books"
+
+// Значення властивості bookShelf.addBook - це метод об'єкта
+
+// Виклик методу bookShelf.addBook("Haze") повертає рядок "Adding book Haze"
+
+// Значення властивості bookShelf.removeBook - це метод об'єкта
+
+// Виклик методу bookShelf.removeBook("Red sunset") повертає рядок "Deleting book Red sunset"
+
+// Значення властивості bookShelf.updateBook - це метод об'єкта
+
+// Виклик методу bookShelf.updateBook("Sands of dune", "Dune") повертає рядок "Updating book Sands of dune to Dune"
+
+// const bookShelf = {
+//     // Change code below this line
+
+//     books: ["The last kingdom", "The guardian of dreams"],
+//     getBooks() {
+//         return "Returning all books";
+//     },
+//     addBook(bookName) {
+//         return `Adding book ${bookName}`;
+//     },
+//     removeBook(bookName) {
+//         return `Deleting book ${bookName}`
+//     },
+//     updateBook(oldName, newName) {
+//         return `Updating book ${oldName} to ${newName}`
+//     },
+
+//     // Change code above this line
+// };
+
+// // Приклади викликів методів
+// console.log(bookShelf.getBooks()); // "Returning all books"
+// console.log(bookShelf.addBook("Haze")); // "Adding book Haze"
+// console.log(bookShelf.removeBook("Red sunset")); // "Deleting book Red sunset"
+// console.log(bookShelf.updateBook("Sands of dune", "Dune")); // "Updating book Sands of dune to Dune"
+
+// #35
+
+// Доповни метод updateBook(oldName, newName) таким чином, щоб він змінював назву книги з oldName на
+// newName у властивості books.Використовуй indexOf() для того, щоб знайти потрібний елемент
+// масиву, і splice() для того, щоб замінити цей елемент.
+
+// Оголошена змінна bookShelf
+
+// Значення змінної bookShelf - це об'єкт
+
+// Значення властивості bookShelf.updateBook - це метод об'єкта
+
+// Після виклику методу bookShelf.updateBook("Haze", "Dungeon chronicles"), значення
+// властивості books - це масив["The last kingdom", "Dungeon chronicles", "The guardian of dreams"]
+
+// Після виклику методу bookShelf.updateBook("The last kingdom", "Dune"), значення
+// властивості books - це масив["Dune", "Haze", "The guardian of dreams"]
+
+// const bookShelf = {
+//     books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//     updateBook(oldName, newName) {
+//         // Change code below this line
+
+//         const bookNumber = this.books.indexOf(oldName);
+//         this.books.splice(bookNumber, 1, newName);
+
+//         // Change code above this line
+//     },
+// };
+
+// const bookShelf = {
+//     books: ["The last kingdom", "Haze", "The guardian of dreams"],
+
+//     updateBook(oldName, newName) {
+//         const index = this.books.indexOf(oldName);
+//         if (index !== -1) {
+//             this.books[index] = newName;
+//             return `Updating book ${oldName} to ${newName}`;
+//         } else {
+//             return `Book ${oldName} not found`;
+//         }
+//     },
+// };
+
+// console.log(bookShelf.books); // ["The last kingdom", "Haze", "The guardian of dreams"]
+// console.log(bookShelf.updateBook("Haze", "Dungeon chronicles")); // "Updating book Haze to Dungeon chronicles"
+// console.log(bookShelf.books); // ["The last kingdom", "Dungeon chronicles", "The guardian of dreams"]
+// console.log(bookShelf.updateBook("The last kingdom", "Dune")); // "Updating book The last kingdom to Dune"
+// console.log(bookShelf.books); // ["Dune", "Dungeon chronicles", "The guardian of dreams"]
+
+// Тепер метод updateBook оновлює назву книги з oldName на newName у властивості books, використовуючи indexOf для
+// пошуку елемента масиву та splice для заміни цього елемента.
+
+// #37
+
+// Додай об'єкту atTheOldToad метод getPotions(), який просто повертає значення властивості potions.
+
+// Оголошена змінна atTheOldToad
+// Значення змінної atTheOldToad - це об'єкт
+// Значення властивості atTheOldToad.potions - це масив["Speed potion", "Dragon breath", "Stone skin"]
+// Значення властивості atTheOldToad.getPotions - це метод об'єкта
+// Виклик методу atTheOldToad.getPotions() повертає["Speed potion", "Dragon breath", "Stone skin"]
+
+// const atTheOldToad = {
+//     potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//     // Change code below this line
+
+//     getPotions() {
+//         return atTheOldToad.potions
+//     },
+
+//     // Change code above this line
+// };
+
+// const atTheOldToad = {
+//     potions: ["Speed potion", "Dragon breath", "Stone skin"],
+
+//     getPotions() {
+//         return this.potions;
+//     },
+// };
+
+// console.log(atTheOldToad.getPotions()); // ["Speed potion", "Dragon breath", "Stone skin"]
+
+// Тепер метод getPotions повертає масив зі злитками, як очікується.
+
+// #38
+
+// Доповни метод addPotion(potionName) таким чином, щоб він додавав зілля potionName в
+// кінець масиву зілля у властивості potions.
+
+// Оголошена змінна atTheOldToad
+// Значення змінної atTheOldToad - це об'єкт
+// Значення властивості atTheOldToad.potions - це масив["Speed potion", "Dragon breath", "Stone skin"]
+// Значення властивості atTheOldToad.addPotion - це метод об'єкта
+// Після першого виклику методу atTheOldToad.addPotion("Invisibility"), у властивості potions
+// буде масив["Speed potion", "Dragon breath", "Stone skin", "Invisibility"]
+// Після другого виклику методу atTheOldToad.addPotion("Power potion"), у властивості potions
+// буде масив["Speed potion", "Dragon breath", "Stone skin", "Invisibility", "Power potion"]
+
+// const atTheOldToad = {
+//     potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//     addPotion(potionName) {
+//         // Change code below this line
+
+//         this.potions.push(potionName);
+
+//         // Change code above this line
+//     },
+// };
+
+// #39
+
+// Доповни метод removePotion(potionName) таким чином, щоб він видаляв зілля potionName з
+// масиву зілля у властивості potions.
+
+// Оголошена змінна atTheOldToad
+// Значення змінної atTheOldToad - це об'єкт
+// Значення властивості atTheOldToad.potions - це масив["Speed potion", "Dragon breath", "Stone skin"]
+// Значення властивості atTheOldToad.removePotion - це метод об'єкта
+// Після першого виклику методу atTheOldToad.removePotion("Dragon breath"), у властивості potions буде
+// масив["Speed potion", Stone skin"]
+// Після другого виклику методу atTheOldToad.removePotion("Speed potion"), у властивості potions буде
+// масив["Stone skin"]
+
+// const atTheOldToad = {
+//     potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//     removePotion(potionName) {
+//         // Change code below this line
+
+//         const potionNumber = this.potions.indexOf(potionName);
+//         this.potions.splice(potionNumber, 1);
+
+//         // Change code above this line
+//     },
+// };
+
+// #40
+
+// Доповни метод updatePotionName(oldName, newName) таким чином, щоб він оновлював назву
+// зілля з oldName на newName в масиві зілля у властивості potions.
+
+// Оголошена змінна atTheOldToad
+// Значення змінної atTheOldToad - це об'єкт
+// Значення властивості atTheOldToad.potions - це масив["Speed potion", "Dragon breath", "Stone skin"]
+// Значення властивості atTheOldToad.updatePotionName - це метод об'єкта
+// Після першого виклику методу atTheOldToad.updatePotionName("Dragon breath", "Polymorth"), у
+// властивості potions буде масив["Speed potion", "Polymorth", "Stone skin"]
+// Після другого виклику методу atTheOldToad.updatePotionName("Stone skin", "Invisibility"), у
+// властивості potions буде масив["Speed potion", "Polymorth", "Invisibility"]
+
+// const atTheOldToad = {
+//     potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//     updatePotionName(oldName, newName) {
+//         // Change code below this line
+
+//         const potionNumber = this.potions.indexOf(oldName);
+//         this.potions.splice(potionNumber, 1, newName);
+
+//         // Change code above this line
+//     },
+// };
+
+// console.log(atTheOldToad.potions); // ["Speed potion", "Stone skin"]
+
+// Цей код додасть можливість видаляти зілля potionName з масиву potions.
+
+// #41
+
+// Замовниця хоче, щоб кожне зілля було представлено не тільки ім'ям, але й ціною, а в майбутньому,
+// можливо, й іншими характеристиками.Тому зараз у властивості potions буде зберігатися масив об'єктів з
+// наступними властивостями.
+
+// {
+//     name: "Dragon breath",
+//         price: 700
+// }
+// Виконай рефакторинг методів об'єкта atTheOldToad таким чином, щоб вони працювали не з масивом рядків,
+// а з масивом об'єктів.
+
+//     getPotions() - метод для отримання всього зілля.Повертає значення властивості potions.
+//     addPotion(newPotion) - додає зілля newPotion(вже об'єкт) в масив у властивості potions,
+//         але тільки, якщо такого зілля ще немає в інвентарі.В іншому випадку повертається рядок.
+// removePotion(potionName) - видаляє об'єкт зілля з ім'ям potionName з масиву у властивості potions.
+//         updatePotionName(oldName, newName) - оновлює властивість name об'єкта-зілля з
+//             назвою oldName на newName в масиві potions.
+// Оголошена змінна atTheOldToad
+// Значення змінної atTheOldToad - це об'єкт
+// Значення властивості atTheOldToad.getPotions - це метод об'єкта
+// Виклик методу atTheOldToad.getPotions() для вихідного об'єкта
+// повертає[{ name: "Speed potion", price: 460 }, { name: "Dragon breath", price: 780 },
+//         { name: "Stone skin", price: 520 }]
+// Значення властивості atTheOldToad.addPotion - це метод об'єкта.
+// Для вихідного об'єкта після виклику методу atTheOldToad.addPotion({ name: "Invisibility", price: 620 }), в
+// масиві potions останнім елементом буде цей об'єкт
+// Для вихідного об'єкта після виклику методу atTheOldToad.addPotion({ name: "Power potion", price: 270 }), в
+// масиві potions останнім елементом буде цей об'єкт
+// Якщо зілля, що додається, вже є в масиві potions, метод addPotion повертає рядок з текстом з вихідного коду
+// Якщо зілля, що додається, вже є в масиві potions, метод addPotion не додає в нього переданий об'єкт
+// Для вихідного об'єкта після виклику atTheOldToad.addPotion({ name: "Dragon breath", price: 700 }), масив
+// potions не змінюється
+// Для вихідного об'єкта після виклику atTheOldToad.addPotion({ name: "Stone skin", price: 240 }), массив
+// potions не змінюється
+// Для вихідного об'єкта виклик atTheOldToad.addPotion({ name: "Dragon breath", price: 700 }), повертає
+// рядок "Error! Potion Dragon breath is already in your inventory!"
+// Для вихідного об'єкта виклик atTheOldToad.addPotion({ name: "Stone skin", price: 240 }), повертає
+// рядок "Error! Potion Stone skin is already in your inventory!"
+// Значення властивості atTheOldToad.removePotion - це метод об'єкта
+// Для вихідного об'єкта після виклику методу atTheOldToad.removePotion("Dragon breath"), у
+// властивості potions буде масив[{ name: "Speed potion", price: 460 }, { name: "Stone skin", price: 520 }]
+// Для вихідного об'єкта після виклику методу atTheOldToad.removePotion("Speed potion"), у
+// властивості potions буде масив[{ name: "Dragon breath", price: 780 }, { name: "Stone skin", price: 520 }]
+// Значення властивості atTheOldToad.updatePotionName - це метод об'єкта
+// Для вихідного об'єкта після виклику методу atTheOldToad.updatePotionName("Dragon breath", "Polymorth"), у
+// властивості potions буде масив[{ name: "Speed potion", price: 460 }, { name: "Polymorth", price: 780 },
+//     { name: "Stone skin", price: 520 }]
+// Для вихідного об'єкта після виклику методу atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion"), у
+//  властивості potions буде масив[{ name: "Speed potion", price: 460 }, { name: "Dragon breath", price: 780 },
+//     { name: "Invulnerability potion", price: 520 }]
+
+// const atTheOldToad = {
+//     potions: [
+//         { name: "Speed potion", price: 460 },
+//         { name: "Dragon breath", price: 780 },
+//         { name: "Stone skin", price: 520 },
+//     ],
+//     // Change code below this line
+//     getPotions() {
+//         return this.potions;
+//     },
+//     addPotion(newPotion) {
+//         for (const potion of this.potions) {
+//             if (potion.name === newPotion.name) {
+//                 return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//             }
+//         }
+//         this.potions.push(newPotion);
+
+//     },
+//     removePotion(potionName) {
+//         for (let i = 0; i < this.potions.length; i += 1) {
+//             if (this.potions[i].name === potionName) {
+//                 this.potions.splice(i, 1);
+//                 return;
+//             }
+//         }
+//         return `Potion ${potionName} is not in inventory!`;
+
+//     },
+//     updatePotionName(oldName, newName) {
+//         for (const el of this.potions) {
+//             if (el.name === oldName) {
+//                 el.name = newName
+//                 return;
+//             }
+//         }
+
+//     },
+//     // Change code above this line
+// };
+
+// варіант 2
+
+// const atTheOldToad = {
+//     potions: [
+//         { name: "Speed potion", price: 460 },
+//         { name: "Dragon breath", price: 780 },
+//         { name: "Stone skin", price: 520 },
+//     ],
+
+//     getPotions() {
+//         return this.potions;
+//     },
+
+//     addPotion(newPotion) {
+//         const potionNames = this.potions.map(potion => potion.name);
+//         if (!potionNames.includes(newPotion.name)) {
+//             this.potions.push(newPotion);
+//         } else {
+//             return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//         }
+//     },
+
+//     removePotion(potionName) {
+//         const index = this.potions.findIndex(potion => potion.name === potionName);
+//         if (index !== -1) {
+//             this.potions.splice(index, 1);
+//         }
+//     },
+
+//     updatePotionName(oldName, newName) {
+//         const potionToUpdate = this.potions.find(potion => potion.name === oldName);
+//         if (potionToUpdate) {
+//             potionToUpdate.name = newName;
+//         }
+//     },
+// };
+
+// // Перевірка методів
+// console.log(atTheOldToad.getPotions());
+
+// console.log(atTheOldToad.addPotion({ name: "Invisibility", price: 620 }));
+// console.log(atTheOldToad.addPotion({ name: "Power potion", price: 270 }));
+// console.log(atTheOldToad.addPotion({ name: "Dragon breath", price: 700 }));
+// console.log(atTheOldToad.addPotion({ name: "Stone skin", price: 240 }));
+
+// console.log(atTheOldToad.removePotion("Dragon breath"));
+// console.log(atTheOldToad.removePotion("Speed potion"));
+
+// console.log(atTheOldToad.updatePotionName("Dragon breath", "Polymorth"));
+// console.log(atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion"));
+
+// console.log(atTheOldToad.getPotions());
+
+// Цей код оновлює методи так, щоб вони працювали з масивом об'єктів, а не з масивом рядків, 
+// і враховували ім'я та ціну зілля.
